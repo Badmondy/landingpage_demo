@@ -16,6 +16,9 @@ document.addEventListener('DOMContentLoaded', function () {
     const expand_btn5 = document.getElementById('faq-btn5');
     const expan_ans5 = document.getElementById('answer5');
 
+
+    const signup_btn = document.getElementById('sign-up');
+
     expand_btn1.addEventListener('click', function () {
 
 
@@ -89,6 +92,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
         expan_ans5.style.display = 'none';
 
+    });
+
+
+    signup_btn.addEventListener('click', function () {
+    window.location.href="searchpage.html";
     });
 
 });
