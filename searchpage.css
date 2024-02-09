@@ -68,4 +68,5 @@ body input {
 
 .search-bar img{
    position: absolute;
+    cursor:pointer;
 }
